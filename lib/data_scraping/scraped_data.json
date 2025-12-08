@@ -1,0 +1,109 @@
+{
+  "products": [
+    {
+      "name": "BareBliss Full Set",
+      "price": 650.0,
+      "description": "Includes Apron, Underwear, Socks and Goodies",
+      "slug": "barebliss-full-set",
+      "image": "/images/products/full-set.jpg"
+    },
+    {
+      "name": "BareBliss Underwear Set",
+      "price": 350.0,
+      "description": "Includes Underwear and Socks",
+      "slug": "barebliss-underwear-set",
+      "image": "/images/products/underwear-set.jpg"
+    },
+    {
+      "name": "Underwear & Socks Only",
+      "price": 330.0,
+      "description": "BareBliss Underwear His OR Hers, your choice.",
+      "slug": "underwear-socks-only",
+      "image": "/images/products/underwear-socks.jpg"
+    },
+    {
+      "name": "BareBliss Underwear",
+      "price": 180.0,
+      "description": "BareBliss Underwear His OR Hers",
+      "slug": "barebliss-underwear",
+      "image": "/images/products/underwear.jpg"
+    },
+    {
+      "name": "BareBliss Socks",
+      "price": 170.0,
+      "description": "BareBliss Socks His OR Hers, take your pick.",
+      "slug": "barebliss-socks",
+      "image": "/images/products/socks.jpg"
+    },
+    {
+      "name": "BareBliss Apron",
+      "price": 250.0,
+      "description": "BareBliss Unisex Apron.",
+      "slug": "barebliss-apron",
+      "image": "/images/products/apron.jpg"
+    },
+    {
+      "name": "BareBliss Dress-Up",
+      "price": 330.0,
+      "description": "Couple in BareBliss Underwear & Socks.",
+      "slug": "barebliss-dress-up",
+      "image": "/images/products/dress-up.jpg"
+    }
+  ],
+  "blogPosts": [
+    {
+      "title": "Introduction to Sunbathing",
+      "slug": "introduction-to-sunbathing",
+      "excerpt": "Discover the benefits of sunbathing and how to do it safely.",
+      "published": true
+    },
+    {
+      "title": "Introduction to Forest Bathing",
+      "slug": "introduction-to-forest-bathing",
+      "excerpt": "Connect with nature through the practice of Shinrin-yoku.",
+      "published": true
+    },
+    {
+      "title": "Discover the Joy of Nude Reading",
+      "slug": "discover-the-joy-of-nude-reading",
+      "excerpt": "Why You Should Try It",
+      "published": true
+    },
+    {
+      "title": "Naturism in 2024 - Embracing the Bare Necessities",
+      "slug": "embracing-the-bare-necessities",
+      "excerpt": "Welcome to our exploration of naturism in 2024!",
+      "published": true
+    },
+    {
+      "title": "Naturism and Naturalism",
+      "slug": "naturism-and-naturalism",
+      "excerpt": "Embracing Environmentalism in the Nude",
+      "published": true
+    },
+    {
+      "title": "Social Naturism vs Indoor Naturism",
+      "slug": "social-naturism-vs-indoor-naturism",
+      "excerpt": "Understanding the different ways to enjoy the lifestyle.",
+      "published": true
+    },
+    {
+      "title": "Naturism between Couples",
+      "slug": "naturism-between-couples",
+      "excerpt": "Building intimacy and trust through shared vulnerability.",
+      "published": true
+    },
+    {
+      "title": "Introducing Naturism to Children",
+      "slug": "introducing-naturism-to-children",
+      "excerpt": "A guide for parents on raising body-positive kids.",
+      "published": true
+    },
+    {
+      "title": "What is Naturism",
+      "slug": "what-is-naturism",
+      "excerpt": "Defining the philosophy and efficient living.",
+      "published": true
+    }
+  ]
+}
