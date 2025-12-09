@@ -1,8 +1,11 @@
-import { ArrowRight, Leaf, Truck, Droplets, Sprout } from "lucide-react";
-import { Button } from "@/components/ui/button";
+// external imports
+import { ArrowRight, Droplets, Leaf, Truck } from "lucide-react";
 import Link from "next/link";
-import scrapedData from "@/lib/data_scraping/scraped_data.json";
+
+// local imports
+import { Button } from "@/components/ui/button";
 import Hero from "@/components/hero";
+import scrapedData from "@/lib/data_scraping/scraped_data.json";
 
 export default function Home() {
 	const featuredProducts = scrapedData.products.slice(0, 3);
@@ -85,9 +88,9 @@ export default function Home() {
 							className="group h-full"
 						>
 							<div className="flex flex-col h-full rounded-2xl overflow-hidden bg-card border border-border/50 hover:shadow-md transition-all duration-300 hover:-translate-y-1">
-								<div className="aspect-[4/5] bg-secondary/20 relative overflow-hidden flex items-center justify-center">
+								<div className="aspect-4/5 bg-secondary/20 relative overflow-hidden flex items-center justify-center">
 									{/* Placeholder for Product Image */}
-									<div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+									<div className="absolute inset-0 bg-linear-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
 									<span className="text-muted-foreground/50 font-medium">
 										Image: {product.name}
 									</span>
