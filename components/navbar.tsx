@@ -1,6 +1,13 @@
 "use client";
 
-import { Menu, Moon, ShoppingBag, Sun } from "lucide-react";
+import {
+	LucideSquareArrowOutDownRight,
+	Menu,
+	Moon,
+	ShoppingBag,
+	Sun,
+	SunMoon,
+} from "lucide-react";
 import Link from "next/link";
 import { useTheme } from "next-themes";
 import * as React from "react";
@@ -11,6 +18,27 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 export function Navbar() {
 	const { setTheme, theme } = useTheme();
 	const [isOpen, setIsOpen] = React.useState(false);
+	const [mounted, setMounted] = React.useState(false);
+
+	React.useEffect(() => {
+		setMounted(true);
+	}, []);
+
+	const toggleTheme = () => {
+		switch (theme) {
+			case "system":
+				setTheme("dark");
+				break;
+
+			case "dark":
+				setTheme("light");
+				break;
+
+			default:
+				setTheme("system");
+				break;
+		}
+	};
 
 	const routes = [
 		{ href: "/", label: "Home" },
@@ -46,10 +74,17 @@ export function Navbar() {
 						variant="ghost"
 						size="icon"
 						aria-label="Toggle Theme"
-						onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+						onClick={toggleTheme}
 					>
-						<Sun className="h-5 w-5 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
-						<Moon className="absolute h-5 w-5 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
+						{!mounted ? (
+							<SunMoon className="h-5 w-5" />
+						) : (
+							<>
+								{theme === "light" && <Sun className="h-5 w-5" />}
+								{theme === "dark" && <Moon className="h-5 w-5" />}
+								{theme === "system" && <SunMoon className="h-5 w-5" />}
+							</>
+						)}
 						<span className="sr-only">Toggle Theme</span>
 					</Button>
 					<Sheet open={isOpen} onOpenChange={setIsOpen}>

@@ -1,14 +1,14 @@
 "use client";
 
-import Link from "next/link";
 import Image from "next/image";
+import Link from "next/link";
 import { Sprout } from "lucide-react";
 import { useState, useEffect } from "react";
 
-import { Button } from "./ui/button";
+import { Button } from "@/components/ui/button";
 import scrapedData from "@/lib/data_scraping/scraped_data.json";
 
-const Hero = () => {
+const HeroSection = () => {
 	const images = scrapedData.hero.images || [];
 	const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
@@ -101,4 +101,4 @@ const Hero = () => {
 	);
 };
 
-export default Hero;
+export default HeroSection;
