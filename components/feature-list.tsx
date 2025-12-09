@@ -1,11 +1,13 @@
+
 import scrapedData from "@/lib/data_scraping/scraped_data.json";
+import type { ReactNode } from "react";
 
 import DynamicIcon from "./dynamic-icon";
 
 interface Feature {
 	title: string;
 	description: string;
-	icon: React.ReactNode;
+	icon: ReactNode;
 }
 
 const FeatureList = () => {
