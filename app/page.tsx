@@ -1,10 +1,9 @@
-// external imports
-import { ArrowRight, Droplets, Leaf, Truck } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 
-// local imports
+import FeatureList from "@/components/feature-list";
+import HeroSection from "@/components/hero-section";
 import { Button } from "@/components/ui/button";
-import Hero from "@/components/hero";
 import scrapedData from "@/lib/data_scraping/scraped_data.json";
 
 export default function Home() {
@@ -14,49 +13,10 @@ export default function Home() {
 	return (
 		<div className="flex flex-col gap-10 pb-10">
 			{/* Hero Section */}
-			<Hero />
+			<HeroSection />
 
 			{/* Features Grid */}
-			<section className="container py-12">
-				<div className="grid grid-cols-1 gap-8 md:grid-cols-3">
-					<div className="group flex flex-col items-center text-center p-8 bg-card rounded-3xl border border-border/50 hover:border-primary/20 transition-colors shadow-sm">
-						<div className="h-14 w-14 rounded-full bg-secondary/30 flex items-center justify-center mb-6 text-primary group-hover:scale-110 transition-transform">
-							<Leaf className="h-7 w-7" />
-						</div>
-						<h3 className="text-xl font-bold mb-3 font-serif">
-							Earth Friendly
-						</h3>
-						<p className="text-muted-foreground">
-							Every product is crafted with respect for the environment, using
-							biodegradable materials.
-						</p>
-					</div>
-					<div className="group flex flex-col items-center text-center p-8 bg-card rounded-3xl border border-border/50 hover:border-primary/20 transition-colors shadow-sm">
-						<div className="h-14 w-14 rounded-full bg-secondary/30 flex items-center justify-center mb-6 text-primary group-hover:scale-110 transition-transform">
-							<Droplets className="h-7 w-7" />
-						</div>
-						<h3 className="text-xl font-bold mb-3 font-serif">
-							Pure Ingredients
-						</h3>
-						<p className="text-muted-foreground">
-							No harsh chemicals or artificial fragrances. Just simple, honest
-							ingredients.
-						</p>
-					</div>
-					<div className="group flex flex-col items-center text-center p-8 bg-card rounded-3xl border border-border/50 hover:border-primary/20 transition-colors shadow-sm">
-						<div className="h-14 w-14 rounded-full bg-secondary/30 flex items-center justify-center mb-6 text-primary group-hover:scale-110 transition-transform">
-							<Truck className="h-7 w-7" />
-						</div>
-						<h3 className="text-xl font-bold mb-3 font-serif">
-							Sustainable Delivery
-						</h3>
-						<p className="text-muted-foreground">
-							We offset our carbon footprint for every shipment that leaves our
-							warehouse.
-						</p>
-					</div>
-				</div>
-			</section>
+			<FeatureList />
 
 			{/* Featured Products */}
 			<section className="container py-16 space-y-10">

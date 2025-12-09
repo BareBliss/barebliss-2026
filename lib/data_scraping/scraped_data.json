@@ -9,6 +9,52 @@
     "buttonLink2": "/shop",
     "images": ["/images/barebliss-logo.png"]
   },
+  "keyFeatures": {
+    "title": "We believe in the liberating experience of shedding societal norms",
+    "description": "and embracing the simplicity of living clothes-free. Our community is diverse, bringing together people from various backgrounds, ages, and walks of life, united by a shared appreciation for the nudist lifestyle.",
+    "features": [
+      {
+        "icon": "Users",
+        "title": "Respect for Self and Others",
+        "content": "I recognize and honor the inherent dignity and worth of each individual within Bare Bliss. I commit to treating others with kindness, understanding, and acceptance, fostering an environment where everyone feels comfortable in their own skin."
+      },
+      {
+        "icon": "UserPlus",
+        "title": "Body Positivity",
+        "content": "I celebrate the diversity of the human body and acknowledge that beauty comes in all shapes, sizes, and forms. I pledge to promote body positivity, free from judgment or discrimination, fostering a culture of self-acceptance and self-love."
+      },
+      {
+        "icon": "SquareCheckBig",
+        "title": "Consent and Boundaries",
+        "content": "I understand the importance of consent and respecting personal boundaries. I pledge to communicate openly and ensure that all interactions within the Bare Bliss community are consensual and considerate of others' comfort levels."
+      },
+      {
+        "icon": "Globe",
+        "title": "Environment Stewardship",
+        "content": "I commit to being a responsible steward of the natural environment that surrounds us. I will strive to leave no trace, minimizing our impact on the land and promoting sustainability in our activities."
+      },
+      {
+        "icon": "House",
+        "title": "Community Support",
+        "content": "I recognize the strength of our community lies in our shared values and mutual support. I pledge to contribute positively to the Bare Bliss community, fostering a sense of camaraderie and friendship."
+      },
+      {
+        "icon": "CameraOff",
+        "title": "Discretion and Privacy",
+        "content": "I understand the importance of discretion and respect for the privacy of our community members. I pledge to maintain the confidentiality of personal information and experiences shared within the group."
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Education and Advocacy",
+        "content": "I commit to promoting understanding and dispelling misconceptions about naturism. I will actively engage in educating others about the values of Bare Bliss and advocating for a more accepting and open-minded society."
+      },
+      {
+        "icon": "Film",
+        "title": "Have Fun",
+        "content": "I join the Bare Bliss Naturists Group with the intention of creating a space where individuals can experience the joy of naturism in a supportive and respectful community."
+      }
+    ]
+  },
   "products": [
     {
       "name": "BareBliss Full Set",
